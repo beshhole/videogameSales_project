@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 pd.set_option('display.width', 500)
 pd.set_option('display.max_columns', 12)
 
-data = pd.read_csv('E:/Besha/belajar/pandas exercise/exercise 3/vgsales.csv')
+data = pd.read_csv('E:/.../vgsales.csv')
 
 print(data.isnull().sum())
 data.dropna(inplace=True)
