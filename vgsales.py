@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 pd.set_option('display.width', 500)
 pd.set_option('display.max_columns', 12)
 
+# dataset taken from https://www.kaggle.com/gregorut/videogamesales
 data = pd.read_csv('E:/.../vgsales.csv')
 
 print(data.isnull().sum())
